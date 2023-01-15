@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- Rating state start -->
+      <section class="rating-container row" id="rating-container">
+        <div class="card">
+          <div class="ratingSection" id="rating">
+            <div class="img-star">
+              <img
+                class="card-img-top rounded-circle"
+                src="./images/icon-star.svg"
+                alt="icon-star"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="card-title">How did we do?</h1>
+              <p class="card-text">
+                Please let us know how we did with your support request. All
+                feedback is appreciated to help us improve our offering!
+              </p>
+              <ul class="batch">
+                <li><button class="numbers">1</button></li>
+                <li><button class="numbers">2</button></li>
+                <li><button class="numbers" i>3</button></li>
+                <li><button class="numbers">4</button></li>
+                <li><button class="numbers">5</button></li>
+              </ul>
+
+              <button id="btn" class="btn rounded-pill my-4" type="button">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rating state end -->
+      <!-- Thank you state start -->
+      <section class="thanks row d-none" id="thanks-container">
+        <div class="thanks card">
+          <div class="thanks-img mx-auto mt-4" id="thanks-img">
+            <img
+              src="./images/illustration-thank-you.svg"
+              alt="phone-picture"
+            />
+          </div>
+          <p class="selected mx-auto my-5">
+            You selected
+            <!-- Add rating here --><span id="selected"></span>
+            out of 5
+          </p>
+
+          <h1 class="mx-auto">Thank you!</h1>
+          <p class="text-center">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+        <!-- Thank you state end -->
+      </section>
+    </main>
+    <div class="attribution text-light my-2">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/CaroHerrera6">Carolina Herrera</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

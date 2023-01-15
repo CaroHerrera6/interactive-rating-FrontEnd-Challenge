@@ -1,0 +1,77 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.batch {
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  width: 326px;
+  height: 50px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.card {
+  background-color: hsl(213, 19%, 18%);
+
+  padding: 20px;
+  margin: auto auto;
+}
+.card-img-top {
+  background-color: hsl(213, 19%, 25%);
+  padding: 10px;
+  margin: 15px;
+  border-radius: 50%;
+  max-width: 12%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  width: 25rem;
+  margin-top: 10%;
+}
+h1 {
+  color: white;
+}
+.numbers {
+  background-color: hsl(213, 19%, 25%);
+  padding: 10px 18px;
+  color: hsl(217, 12%, 63%);
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+}
+.numbers:focus {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+.numbers:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+p {
+  color: hsl(217, 12%, 63%);
+}
+
+.selected {
+  background-color: hsl(213, 19%, 25%);
+  color: hsl(25, 97%, 53%);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
